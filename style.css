@@ -1,15 +1,13 @@
-body
-{
+body {
   margin: 0;
 }
 h1 {
   font-size: 35px;
   font-weight: 400;
   font-family: "Pushster", cursive;
-  text-shadow:10px 10px 40px rgb(124, 145, 84);;
 }
 .orange-color {
-  color:orange;
+  color: orange;
 }
 h3 {
   font-weight: 100;
@@ -21,69 +19,97 @@ p {
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
-.half-width
-{
+.half-width {
   width: 50%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.half-width img
-{
+.half-width1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.half-width1.header {
+  font-family: "Pushster", cursive;
+  font-weight: 700;
+  padding-left: 15%;
+  text-transform: uppercase;
+  color: brown;
+}
+.half-width1.home a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: brown;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.half-width1.home a:hover {
+  color: palegreen;
+}
+.button1 {
+  background-color: orange;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button1:hover {
+  background: palegreen;
+  transition: all 0.3s ease;
+}
+.half-width img {
   width: 80%;
 }
-#link-button
-{
-  text-decoration:none;
+#link-button {
+  text-decoration: none;
   background-color: sandybrown;
   padding: 5px 15px;
   border-radius: 5px;
-  background-image: linear-gradient(orange,tomato);
-  color:white;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
   font-weight: 700;
-  box-shadow:10px 10px 30px rgb(124, 145, 84);
 }
-.top-banner
-{
+.top-banner1 {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
-.dream-blog
-{
+.dream-blog {
+  margin-top: 50px;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
-.header
-{
+.header {
   padding-left: 5%;
 }
-.experiences-area
-{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
+.experiences-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
 }
-.experiences-item
-{
+.experiences-item {
   margin-left: 5%;
   margin-right: 5%;
-  box-shadow:10px 10px 40px rgb(124, 145, 84);
+  box-shadow: 10px 10px 40px rgb(124, 145, 84);
   border-radius: 5px;
 }
-#web-dev-expericence
-{
+#web-dev-expericence {
   border-left: 7px solid;
-  border-image:linear-gradient(purple,tomato);
+  border-image: linear-gradient(purple, tomato);
   border-image-slice: 5;
 }
-#full-stack-expeience
-{
+#full-stack-expeience {
   border-left: 7px solid;
-  border-image:linear-gradient(blue,cyan);
+  border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
-} 
-footer p
-{
+}
+footer p {
   text-align: center;
 }
